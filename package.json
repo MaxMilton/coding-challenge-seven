@@ -21,7 +21,7 @@
     "prebuild": "shx rm -rf ./docs && shx mkdir ./docs && shx cp -r ./static/* ./docs",
     "clean": "lerna clean --yes",
     "lint:css": "stylelint **/*.{html,css} --cache",
-    "lint:js": "eslint --ignore-path .gitignore --ext .js,.jsx,.html .",
+    "lint:js": "eslint --ignore-path .gitignore --ignore-pattern docs --ext .js,.jsx,.vue,.html .",
     "lint": "yarn lint:css && yarn lint:js",
     "test": "yarn lint && jest --coverage",
     "test-ci": "jest --runInBand --ci --verbose --coverage"
