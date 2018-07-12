@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../5-svelte/src/Banner.html"
+  ],
+  "sourcesContent": [
+    "<div class=\"banner\">\n  <img src=\"{tile}\" alt=\"{title}\" class=\"tile\" />\n\n  <div class=\"overlay\">\n    <img src=\"{logo}\" alt=\"{logoAlt}\" class=\"network\" />\n\n    <h3 class=\"title\">\n      {title}\n    </h3>\n  </div>\n</div>\n\n<script>\n  // XXX: Svelte doesn't have a public API for prop validation yet\n\n  export default {\n    data: () => ({\n      /* optional props */\n      logo: '../logo.png',\n      logoAlt: '7plus',\n    }),\n  };\n</script>\n\n<style>\n  .banner {\n    position: relative;\n    display: inline-block;\n  }\n\n  .tile {\n    display: block;\n  }\n\n  .overlay {\n    position: absolute;\n    bottom: 0;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n    width: 100%;\n    padding: 1rem;\n    background-color: rgba(0, 0, 0, 0.5);\n  }\n\n  .network {\n    width: auto;\n    height: 4.6rem;\n  }\n\n  .title {\n    margin: 0 0 0 1rem;\n    font-family: sans-serif;\n    font-size: 2.2rem;\n    color: rgb(255, 255, 255);\n  }\n</style>\n"
+  ],
+  "names": [],
+  "mappings": "AAyBE,OAAO,cAAC,CAAC,AACP,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,YAAY,AACvB,CAAC,AAED,KAAK,cAAC,CAAC,AACL,OAAO,CAAE,KAAK,AAChB,CAAC,AAED,QAAQ,cAAC,CAAC,AACR,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,CAAC,CACT,UAAU,CAAE,UAAU,CACtB,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,IAAI,CACb,gBAAgB,CAAE,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,AACtC,CAAC,AAED,QAAQ,cAAC,CAAC,AACR,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,MAAM,AAChB,CAAC,AAED,MAAM,cAAC,CAAC,AACN,MAAM,CAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAClB,WAAW,CAAE,UAAU,CACvB,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,IAAI,GAAG,CAAC,CAAC,GAAG,CAAC,CAAC,GAAG,CAAC,AAC3B,CAAC"
+}
