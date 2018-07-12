@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component renders correctly 1`] = `
+<div class="sc-bdVaJa jCeSos">
+  <img class="sc-bwzfXH gbieAY" src="../tile.jpg" alt="Home And Away">
+  <div class="sc-htpNat kuzZIM">
+    <img class="sc-bxivhb kufJPE" src="../logo.png" alt="7plus">
+    <h3 class="sc-ifAKCX eVJwop">Home And Away</h3>
+  </div>
+</div>
+`;

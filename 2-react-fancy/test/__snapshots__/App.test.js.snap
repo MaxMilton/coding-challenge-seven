@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App root component renders correctly 1`] = `
+<div
+  className="sc-bdVaJa jCeSos"
+>
+  <picture>
+    <img
+      alt="Home And Away"
+      className="sc-bwzfXH gbieAY"
+      src="../tile@x2.jpg"
+      srcSet="
+        ../tile.jpg,
+        ../tile@x2.jpg 2x
+      "
+    />
+  </picture>
+  <div
+    className="sc-htpNat kuzZIM"
+  >
+    <picture>
+      <img
+        alt="7plus"
+        className="sc-bxivhb kufJPE"
+        src="../logo@x2.png"
+        srcSet="
+        ../logo.png,
+        ../logo@x2.png 2x
+      "
+      />
+    </picture>
+    <h3
+      className="sc-ifAKCX eVJwop"
+    >
+      Home And Away
+    </h3>
+  </div>
+</div>
+`;

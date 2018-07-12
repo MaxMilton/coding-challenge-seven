@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "packages": [
+    "1-react-simple",
+    "2-react-fancy",
+    "3-preact",
+    "4-vue",
+    "5-svelte",
+    "6-vanilla-js-web-component"
+  ],
+  "ignoreChanges": [
+    "public/**",
+    "**/test/**",
+    "**/.*rc",
+    "**/.*rc.js",
+    "**/*.config.js",
+    "**/*.md"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "registry": "https://registry.npmjs.org/"
+}

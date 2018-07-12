@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@minna-ui/eslint-config/jest"
+  ],
+  "overrides": [{
+    "files": ["*.test.js"],
+    // "parserOptions": {
+    //   "sourceType": "module"
+    // },
+    "rules": {
+      "import/no-extraneous-dependencies": "off"
+    }
+  }]
+}

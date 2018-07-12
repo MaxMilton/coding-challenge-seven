@@ -1,0 +1,22 @@
+{
+  "name": "6-vanilla-js-web-component",
+  "private": true,
+  "version": "1.0.0",
+  "description": "6. Vanilla JS web component variant",
+  "repository": "https://github.com/MaxMilton/coding-challenge-seven",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "run-p start autobuild",
+    "build": "NODE_ENV=production rollup -c",
+    "autobuild": "rollup -c -w",
+    "start": "serve -l 8080 ../dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "4.1.3",
+    "rollup": "0.62.0",
+    "rollup-plugin-terser": "1.0.1",
+    "serve": "9.2.0"
+  }
+}
