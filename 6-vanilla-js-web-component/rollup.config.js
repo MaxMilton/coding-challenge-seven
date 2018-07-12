@@ -12,7 +12,7 @@ export default {
     sourcemap: true,
     format: 'es', // XXX: This is the most lightweight format but can be an issue in some scenarios
     name: 'banner',
-    file: '../dist/6-vanilla-js-web-component/bundle.js',
+    file: '../docs/6-vanilla-js-web-component/bundle.js',
   },
   plugins: [
     production && terser(),

@@ -10,7 +10,7 @@
     "dev": "run-p start autobuild",
     "build": "NODE_ENV=production rollup -c",
     "autobuild": "rollup -c -w",
-    "start": "serve -l 8080 ../dist"
+    "start": "serve -l 8080 ../docs"
   },
   "dependencies": {},
   "devDependencies": {

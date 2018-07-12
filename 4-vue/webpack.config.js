@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '..', 'dist', '4-vue'),
+    path: path.resolve(__dirname, '..', 'docs', '4-vue'),
   },
   resolve: {
     extensions: ['.js', '.vue'],

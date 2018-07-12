@@ -12,13 +12,13 @@ export default {
     sourcemap: true,
     format: 'iife',
     name: 'banner',
-    file: '../dist/5-svelte/bundle.js',
+    file: '../docs/5-svelte/bundle.js',
   },
   plugins: [
     svelte({
       dev: !production,
       css: (css) => {
-        css.write('../dist/5-svelte/bundle.css');
+        css.write('../docs/5-svelte/bundle.css');
       },
     }),
 

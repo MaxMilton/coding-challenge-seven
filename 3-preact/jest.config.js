@@ -7,7 +7,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest-nested',
   },
   testPathIgnorePatterns: [
-    '/dist/',
+    '/docs/',
     '/node_modules/',
   ],
   moduleFileExtensions: [

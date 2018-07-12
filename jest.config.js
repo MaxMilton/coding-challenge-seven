@@ -16,7 +16,7 @@ module.exports = {
   },
   testPathIgnorePatterns: [
     '/3-preact/', // XXX: Need custom jest setup
-    '/dist/',
+    '/docs/',
     '/node_modules/',
   ],
   moduleFileExtensions: [

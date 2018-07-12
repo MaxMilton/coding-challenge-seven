@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '..', 'dist', '2-react-fancy'),
+    path: path.resolve(__dirname, '..', 'docs', '2-react-fancy'),
   },
   resolve: {
     extensions: [

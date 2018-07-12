@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '..', 'dist', '1-react-simple'),
+    path: path.resolve(__dirname, '..', 'docs', '1-react-simple'),
   },
   resolve: {
     extensions: [
