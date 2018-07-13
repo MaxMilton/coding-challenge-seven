@@ -1036,9 +1036,9 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@minna-ui/eslint-config@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.7.0.tgz#0fdb154664b3199d1c25f0c265c7608b29bd36ab"
+"@minna-ui/eslint-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.8.0.tgz#7badcd15f881019b8176bc75ca5c18cd3f02424c"
   dependencies:
     eslint-config-airbnb-base "^13.0.0"
     eslint-plugin-html "^4.0.5"
