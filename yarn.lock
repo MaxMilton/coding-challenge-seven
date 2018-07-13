@@ -14,7 +14,7 @@
   dependencies:
     "@babel/highlight" "7.0.0-beta.52"
 
-"@babel/core@7.0.0-beta.53", "@babel/core@^7.0.0-beta.52":
+"@babel/core@7.0.0-beta.53", "@babel/core@^7.0.0-beta.53":
   version "7.0.0-beta.53"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.0.0-beta.53.tgz#ab647cfbb27241fd22ec3ca1342d7ad4e6b54f9f"
   dependencies:
@@ -370,7 +370,7 @@
     "@babel/helper-module-transforms" "7.0.0-beta.53"
     "@babel/helper-plugin-utils" "7.0.0-beta.53"
 
-"@babel/plugin-transform-modules-commonjs@7.0.0-beta.53", "@babel/plugin-transform-modules-commonjs@^7.0.0-beta.52":
+"@babel/plugin-transform-modules-commonjs@7.0.0-beta.53", "@babel/plugin-transform-modules-commonjs@^7.0.0-beta.53":
   version "7.0.0-beta.53"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.0.0-beta.53.tgz#ebc3fba1c5a6c8743b909403ecd3e7e3681cafa5"
   dependencies:
@@ -1045,16 +1045,16 @@
     eslint-plugin-import "^2.13.0"
     eslint-plugin-jest "^21.17.0"
 
-"@minna-ui/jest-config@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.7.0.tgz#8d3ff8520e8661a3383cdc635a0c77ffbf9d2d22"
+"@minna-ui/jest-config@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/jest-config/-/jest-config-0.8.0.tgz#b50851521ccded40666e513eca62ae9311a0fd99"
   dependencies:
-    "@babel/core" "^7.0.0-beta.52"
-    "@babel/plugin-transform-modules-commonjs" "^7.0.0-beta.52"
+    "@babel/core" "^7.0.0-beta.53"
+    "@babel/plugin-transform-modules-commonjs" "^7.0.0-beta.53"
     "@types/jest" "^23.1.5"
     "@types/node" "^10.5.2"
     babel-core "^7.0.0-bridge.0"
-    babel-jest "^23.2.0"
+    babel-jest "^23.4.0"
 
 "@minna-ui/stylelint-config@0.8.0":
   version "0.8.0"
@@ -1759,7 +1759,7 @@ babel-jest-nested@23.2.0:
     babel-plugin-istanbul "^4.1.6"
     babel-preset-jest "^23.2.0"
 
-babel-jest@23.4.0, babel-jest@^23.2.0, babel-jest@^23.4.0:
+babel-jest@23.4.0, babel-jest@^23.4.0:
   version "23.4.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-23.4.0.tgz#22c34c392e2176f6a4c367992a7fcff69d2e8557"
   dependencies:
