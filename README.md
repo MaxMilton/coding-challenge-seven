@@ -12,11 +12,15 @@ You can see a working demo at <http://MaxMilton.github.io/coding-challenge-seven
 
 ## Overview
 
-Because the challenge itself is very simple, I've implemented it in various frameworks and using various build systems. It's often work exploring a problem and picking the right tool for the job.
+Because the challenge itself is very simple, I've implemented it in various frameworks and using various build systems. It's often worth exploring a problem technically and picking the right tool for the job.
+
+> _NOTE: Just about everything in this project was hand coded from scratch (other than eternal packages obviously)._
 
 ### Variants
 
 All variants include simple unit tests and 100% code coverage. Exceptions are `6. Vanilla JS web component` because testing native web components would take too much time to set up and `4. Vue` which is having some intermittent test snapshot issues which I wasn't able to fix in time.
+
+I put emphasis into keeping the code simple so very limited optimisation was done. In real apps there's many ways to improve bundle size and runtime performance.
 
 | Variant | Framework | Build System | JS Bundle Raw | Brotli Compressed | Description |
 | --- | --- | --- | --- | --- | --- |
