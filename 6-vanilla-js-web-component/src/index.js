@@ -1,3 +1,12 @@
+/**
+ * Coding Challenge Seven: Vanilla JS Web Component Variant
+ * @overview My submission for a developer coding challenge.
+ * @author Max Milton <max@wearegenki.com>
+ *
+ * Copyright 2018 Max Milton
+ * Licensed under the MIT License
+ */
+
 // XXX: Not tracking code coverage as it's difficult to test web components
 // properly with just jsdom. For real use I would have to find another way of
 // testing web components custom elements.
