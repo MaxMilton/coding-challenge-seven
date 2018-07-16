@@ -14,8 +14,8 @@
     "vue": "2.5.16"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.53",
-    "@babel/preset-env": "7.0.0-beta.53",
+    "@babel/core": "7.0.0-beta.54",
+    "@babel/preset-env": "7.0.0-beta.54",
     "babel-loader": "8.0.0-beta.4",
     "css-loader": "1.0.0",
     "vue-loader": "15.2.4",
